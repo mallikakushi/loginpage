@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Login page </title>
+<style>
+body {font-family : Arial; background:url('backimg.jpg') ;}
+form { border : 3px; }
+h1 {text-align : center; text-color:aqua; }
+	
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+ 
+}
+
+
+.boxx { padding-left : 500px;
+		padding-right : 500px;
+		
+	}
+.login{ background-color : cadetblue ;
+		width : 100%;
+		padding: 12px;}
+.login:hover {background : deepskyblue;}
+
+.rst { float : right;
+		background-color : lightgray;
+		margin : 10px;
+		padding: 5px;}
+.cncl {float :left;
+		background-color :lightgray;
+		margin :10px;
+		padding :5px; }
+		
+.plast {
+		padding-right : 500px;
+		padding-left : 500px; 
+		margin-top:20px;}
+.fpwd {float :right;
+	margin : 20px;
+	
+}
+		
+</style>
+
+</head>
+
+<body>
+<h1> Login Page  </h1>
+
+<div class = 'boxx'>
+ <label> Username </label>
+ <input type = 'text' placeholder = 'Enter Username'>
+ 
+ <label> Password </label>
+ <input type = 'password' placeholder = 'Enter Password'>
+ 
+ <button class ='login' type = 'submit'> Login </button>
+ 
+ <label >
+ <input type = 'checkbox' > Remeber me 
+ </label>
+ 
+ <button type ='button' class = 'rst'> Reset </button>
+ 
+</div>
+
+
+<div class ='plast'>
+	<button class = 'cncl' > Cancel </button>
+	<label class="fpwd">Forgot <a href="#">password?</a></label>
+	
+</div>
+
+
+</body>
+
+</head>
+
+</html
